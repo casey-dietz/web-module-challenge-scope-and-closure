@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Closure is the combination of a function budled together with references to its surrounding state.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +64,9 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? On lines 58 and 60. They are calling the enclosed function above and creating new variables with that function so it can be called later.
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? The number in which Dan rolls is the only thing that can change.
+c. What is the lexical scope of `newRoll`? It is only available within the body of the personalDice function.
 
 
 ### Task 3 - Stretch Goals
